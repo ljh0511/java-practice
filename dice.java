@@ -18,7 +18,7 @@ public class dice {
 		}else if (B==C) {
 			System.out.println(1000+(B*100));
 		}else {
-			
+			System.out.println(Math.max(A, Math.max(B, C))*100);
 		}
 
 	}
